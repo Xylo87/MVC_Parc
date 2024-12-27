@@ -32,7 +32,7 @@ class ParcController {
 
         $pdo = Connect::seConnecter();
         $requete = $pdo->prepare("
-            SELECT attraction.nom, CONCAT(visiteur.prenom, ' ' ,visiteur.nom) as name, DATE_FORMAT(avis.dateTime, \"%d %M %Y à %Hh%i\") as dateTime, avis.note, avis.commentaire, avis.id_avis
+            SELECT attraction.nom, CONCAT(visiteur.prenom, ' ' ,visiteur.nom) as name, DATE_FORMAT(avis.dateTime, \"%d/%m/%Y à %Hh%i\") as dateTime, avis.note, avis.commentaire, avis.id_avis
             FROM avis
             INNER JOIN visiteur ON visiteur.id_visiteur = avis.id_visiteur
             INNER JOIN attraction ON attraction.id_attraction = avis.id_attraction
