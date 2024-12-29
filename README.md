@@ -1,4 +1,4 @@
-# ⚡🎡 Ébauche d'une application dédiée à la gestion d'un parc d'attraction
+# ⚡🎡 Ébauche d'une application dédiée à la gestion d'un parc d'attraction (PHP/SQL)
 
 ## 1. Description 
 Ce projet est un exercice pratique de programmation web utilisant l'architecture **Modèle/Vue/Contrôleur** et **PHP**.
