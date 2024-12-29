@@ -4,7 +4,7 @@
 Ce projet est un exercice pratique de programmation web utilisant l'architecture **Modèle/Vue/Contrôleur** et **PHP**.
 Il permet l'affichage d'une liste d'attractions (nom, catégorie, intensité, description, durée en minutes, capacité par heure) ainsi que d'une série d'avis de visiteurs fictifs.
 Il est principalement axé sur une modélisation conceptuelle de données et un modéle logique de données (**MCD/MLD**) cohérents vis-à-vis de la gestion d'un parc de ce type.
-Les informations affichées sont appelées depuis une base de données **MySQL** grâce à l'architecure **MVC**.
+Les informations affichées sont appelées depuis une base de données **MySQL** grâce à l'architecture **MVC**.
 
 ---
 
